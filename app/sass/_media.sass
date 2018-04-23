@@ -6,18 +6,124 @@
 
 //Extra large: ≥1200px
 +media-breakpoint-down(xl)
-
+	.info-desc
+		width: 88%
+	.section-1
+		.services-list
+			margin-right: 20px
+	.services-all
+		padding-left: 90px
+		.servise-all-result
+			padding-right: 0
 //Large: ≥992px
 +media-breakpoint-down(lg)
 
 //Medium: ≥768px
 +media-breakpoint-down(md)
-
+	.info-desc
+		width: 93%
 //Small: ≥576px
 +media-breakpoint-down(sm)
-
+	.section-1
+		margin-left: 100px
 //Extra small: >0
 +media-breakpoint-down(xs)
+	.section-1
+		margin-left: 0
+	.person
+		.info-name
+			h3
+				font-size: 13px
+				margin-left: -65px
+				margin-top: -12px
+		.info-name-position
+			p
+				font-size: 9px
+				margin-left: -65px 
+		.info-desc
+			padding-left: 19px
+			padding-top: 5px
+			padding-bottom: 5px
+			left: 51px
+			line-height: 1.2
+			top: 50px
+			width: 85%
+			p
+				font-size: 10px
+
+	 
+		.b-img
+			right: 13px
+			bottom: 20px
+			position: relative
+			width: 65px
+			height: 64px 
+			.info-img
+				width: 91px
+				height: 91px
+				top: -5px
+				right: -13px
+					
+
+		// .b-img
+		// 	bottom: 148px
+		// 	right: 248px
+		// 	position: absolute
+		// 	.info-img
+		// 		width: 70px
+		// 		height: 70px
+		// 		top: 52px
+		// 		left: 20
+		// 		margin-left: -14px
+		// 		position: relative
+
+
+	.services-title
+		margin-right: 0
+		font-size: 11px
+
+	.services-list
+		margin-left: 0
+		.services-type 
+			font-size: 10px
+			p
+				top: 3px
+		.services-text-wrapper
+			span
+				font-size: 11px
+
+		&::before
+			left: 15px
+	.section-1 
+		.servise-all-result, .services-all
+			padding-left: 0
+			font-size: 13px
+			text-align: right
+
+	.section-2 .reviews-item, .section-2 .reviews-wrapper 
+		a
+			font-size: 9px
+			.fa
+				font-size: 8px
+	.reviews-all
+		a
+			font-size: 9px
+
+
+	.section-3 
+		.comment-box 
+			.date
+				font-size: 8px
+	.section-3 
+		.comment-box 
+			.name
+				font-size: 11px
+			.comment-content 
+				.review-text
+					font-size: 10px
+	.my-footer 
+		.button
+			font-size: 12px
 
 
 /*==========  Mobile First  ==========*/

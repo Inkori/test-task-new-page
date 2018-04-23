@@ -1,7 +1,7 @@
 {
-  "name": "optimizedhtml",
-  "version": "4.0.1",
-  "description": "OptimizedHTML 4 - Start HTML Template",
+  "name": "test",
+  "version": "0.1.0",
+  "description": "test task",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

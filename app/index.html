@@ -45,10 +45,13 @@
 									<div class="info-name-position">
 										<p>Менеджер по продажам</p>
 									</div>
+									<div class="b-img">
+										
 										<img class="info-img" src="img/info/1.png" alt="Вероника Ростова">
-										<div class="info-desc">
-											<p>Подберу для вас самые лучшие предложения. Мои услуги абсолютно бесплатны</p>
-										</div>
+									</div>
+									<div class="info-desc">
+										<p>Подберу для вас самые лучшие предложения. Мои услуги абсолютно бесплатны</p>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -61,7 +64,7 @@
 				<section class="section-1">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-12 col-sm-8">
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
 								<h2 class="services-title">Услуг</h2>
 								<ul class="services-list">
 									<li class="services-type">
@@ -92,7 +95,13 @@
 
 									</li>
 								</ul>
-								<div class="services-all">Всего <div class="servise-all-result">15</div></div>
+								<div class="container">
+									<div class="row">
+										<div class="col-md-9 col-sm-9 col-6"><div class="services-all">Всего</div>	</div>
+										<div class="col-md-3 col-sm-3 col-6"><div class="servise-all-result">15</div></div>
+									</div>
+								</div>
+								<!-- <div class="services-all">Всего <div class="servise-all-result">15</div></div> -->
 							</div>
 						</div>
 					</div>
@@ -103,13 +112,13 @@
 					<div class="reviews">
 						<div class="container">
 							<div class="row">
-								<div class="col-md-9 col-sm-8">
+								<div class="col-md-9 col-sm-8 col-7">
 									<div class="reviews-wrapper">
 										<div class="reviews-last"><a class="active" href="#">Последние отзывы</a></div>
 										<div class="reviews-all"><a href="#">Все отзывы</a></div>
 									</div>
 								</div>
-								<div class="col-md-3 col-sm-3">
+								<div class="col-md-3 col-sm-3 col-5">
 									<div class="reviews-item">
 										<div class="like"><a href="#"><i class="fa fa-heart"></i>131</a></div>
 										<div class="comments"><a href="#"><i class="fa fa-comment"></i>14</a></div>
@@ -124,34 +133,36 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12 col-sm-12">
-								<div class="comment-box">
-									<div class="name">Самуил</div>
-									<div class="date">13 октября 2011</div>
-									<div class="comment-content">
-									  <div class="review-text">Привет, Верунь! ниче себе ты крутая. фотка класс!!!!</div>
-									  <div class="triangl-wrapper"></div>
-									  <div class="triangleIn"></div>
+								<div class="comment-wrapper">
+									<div class="comment-box">
+										<div class="name">Самуил</div>
+										<div class="date">13 октября 2011</div>
+										<div class="comment-content">
+										  <div class="review-text">Привет, Верунь! ниче себе ты крутая. фотка класс!!!!</div>
+										  <div class="triangl-wrapper"></div>
+										  <div class="triangleIn"></div>
 									</div>
-								</div>
+									</div>
 
-								<div class="comment-box">
-									<div class="name">Лилия Семёновна</div>
-									<div class="date">14 октября 2011</div>
-									<div class="comment-content">
-									  	<div class="review-text">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент, это и есть всемирно известный центр огранки алмазов и торговли бриллиантами?</div>
-										<div class="triangl-wrapper"></div>
-										<div class="triangleIn"></div>
+									<div class="comment-box">
+										<div class="name">Лилия Семёновна</div>
+										<div class="date">14 октября 2011</div>
+										<div class="comment-content">
+										  	<div class="review-text">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент, это и есть всемирно известный центр огранки алмазов и торговли бриллиантами?</div>
+											<div class="triangl-wrapper"></div>
+											<div class="triangleIn"></div>
+										</div>
 									</div>
-								</div>
-								<div class="comment-box">
-									<div class="name">Лилия Семёновна
-									</div>
-									<div class="date">14 октября 2011
-									</div>
-									<div class="comment-content">
-									  	<div class="review-text">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?</div>
-										<div class="triangl-wrapper"></div>
-										<div class="triangleIn"></div>
+									<div class="comment-box">
+										<div class="name">Лилия Семёновна
+										</div>
+										<div class="date">14 октября 2011
+										</div>
+										<div class="comment-content">
+										  	<div class="review-text">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?</div>
+											<div class="triangl-wrapper"></div>
+											<div class="triangleIn"></div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -166,7 +177,7 @@
 			<div class="row">
 				<div class="col-md-12 col-sm-12">
 					 <form>
-					    <input type="text" id="comment-text" class="text-input">
+					    <input type="text" id="commentText" class="text-input">
 
 					    <button id="add" class="button">Написать консультанту</button>
 					 </form>
