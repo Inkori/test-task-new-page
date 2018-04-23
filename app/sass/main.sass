@@ -1,0 +1,357 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+::placeholder
+	color: #666
+
+::selection
+	color: #fff
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	input, textarea
+		border: #666 1px solid
+		outline: none
+		&:focus:required:invalid
+			border-color: red
+		&:required:valid
+			border-color: green
+	&.ishome
+		.site-header
+			max-width: 700px
+			padding-top: 20px
+			.top-line
+				padding-top: 40px
+				position: absolute
+				width: 100%
+				z-index: 1
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+	&.img-width
+		width: 100%
+
+.text-center
+	text-align: center
+
+b, strong
+	font-weight: bold
+
+
+
+
+.services-type
+	margin-bottom: 1px
+	height: 25px
+
+.reviews-item, .reviews-wrapper
+	display: inline-block
+
+.rightside
+	float: right
+
+.reviews-last
+	margin-right: 10px
+
+.info-desc
+	background-color: #fffbc8
+	width: 100%
+	padding-left: 37px
+	padding-top: 10px
+	padding-bottom: 10px
+	border-radius: 4px
+	border: 1px solid lightgrey
+	position: relative
+	left: 90px
+	line-height: 1.2
+	p
+		display: inline
+		font-size: 14px
+
+.like, .comments 
+	a
+		text-decoration: none
+		color: #000
+		padding-right: 15px
+		font-size: 12px
+		.fa
+			color: #73b4d5
+			font-size: 14px
+
+
+.servise-all-result
+	float: right
+	padding-right: 25px
+
+.services-list
+	list-style-type: none
+	padding: 12px 0
+	margin-top: 9px
+	border-top: 1px solid lightgrey
+	border-bottom: 1px solid lightgrey
+	margin-right: 10px
+	&::before
+		content: ""
+		width: 1px
+		left: 15px
+		background-color: #d3d3d3
+		height: 77px
+		position: absolute
+
+
+.date
+	display: inline-block
+	font-size: 11px
+	color: grey
+	margin-left: 10px
+
+.text-input
+	display: block
+	height: 65px
+	width: 100%
+
+
+.services-type-green
+	background-color: #3cb305
+	opacity: .4
+	width: 58%
+	height: 25px
+	display: inline-block
+	position: absolute
+	border-bottom-right-radius: 5px
+	border-top-right-radius: 5px
+	
+
+
+
+.services-all
+	font-weight: bold
+	font-size: 16px
+
+// .addButton
+// 	background-color: #fdd639
+// 	margin-top: 20px
+// 	padding: 15px 30px
+// 	border-radius: 30px
+// 	box-shadow: 0px
+.my-footer
+	text-align: center
+	background-color: #f2f2f2
+	margin-top: 20px
+	padding-top: 30px
+	padding-bottom: 35px
+	.button
+		display: inline-block
+		border: none
+		color: #000
+		text-decoration: none
+		background-color: #fdd639
+		padding: 10px 58px
+		margin-top: 20px
+		font-size: 16px
+		font-family: "ptsans-example", sans-serif
+		font-weight: bold
+		border-radius: 30px
+		text-align: center
+		position: relative
+		outline: none
+		transition: background-color .1s ease
+		&:focus, &:hover
+			text-decoration: none
+		&:hover
+			background-color: lighten(#fdd639, 5%)
+			&::after
+				opacity: .22
+		&:active
+			background-color: darken(#fdd639, 5%)
+			&::after
+				opacity: .32
+
+	
+	
+
+.triangl-wrapper
+	position: absolute
+	top: -10px
+	left: 32px
+	border: 10px solid transparent
+	border-left: 0px solid #f2fafd
+	border-bottom: 10px solid #f2fafd
+	z-index: -1
+	&:after
+		content: ''
+		display: block
+		width: 1px
+		height: 30px
+		background: grey
+		position: absolute
+		top: -14px
+		left: 5px
+		transform: rotateZ(-45deg)
+	&:before
+		content: ''
+		display: block
+		width: 1px
+		height: 30px
+		background: grey
+		position: absolute
+		top: -10px
+		left: -6px
+
+.review-text
+	background-color: #f2fafd
+	padding: 17px 18px 14px 20px
+	margin-top: 15px
+	border: 1px solid grey
+	font-size: 14px
+	position: relative
+
+.name
+	font-size: 14px
+	font-weight: bold
+	display: inline-block
+
+.comment-content
+	position: relative
+
+.reviews-last, .reviews-all, .like, .comments
+	display: inline-block
+
+.services-type-blue
+	background-color: #30b6ee
+	opacity: .4
+	width: 14%
+	height: 25px
+	display: inline-block
+	position: absolute
+	border-bottom-right-radius: 5px
+	border-top-right-radius: 5px
+
+.services-type
+	p
+		display: inline-block
+		top: -8px
+		left: 7px
+		font-size: 13px
+		position: relative
+		font-size: 12px
+		font-size: 10px
+		top: -3px
+	.services-text-wrapper
+		float: right
+		span
+			padding-top: 7px
+			font-size: 13px
+			font-weight: bold
+			padding-right: 45px
+			padding-right: 20px
+
+body
+	margin: 0 auto
+	padding: 0
+	box-sizing: border-box
+	max-width: 720px
+
+.info-name-position
+	font-family: "arial-example"
+	margin: 0
+	font-size: 12px
+	color: #808080
+	margin-left: 130px
+	line-height: 1.2
+
+.services-title
+	font-family: "arial-example"
+	font-size: 12px
+	text-align: right
+	margin-right: 35px
+	margin-bottom: 10px
+	margin-top: 15px
+
+.section-2
+	margin-top: 19px
+	margin-bottom: -13px
+
+.info-img
+	z-index: 1
+	position: absolute
+	width: 120px
+	height: 120px
+	border-radius: 10em
+	top: 33px
+
+
+.services-type-blue--min
+	background-color: #30b6ee
+	opacity: .4
+	width: 9%
+	height: 25px
+	display: inline-block
+	position: absolute
+	border-bottom-right-radius: 5px
+	border-top-right-radius: 5px
+
+.info-name
+	display: inline-block
+	font-size: 14px
+	margin-top: 0
+	margin-left: 130px
+	font-family: "arial-example"
+	font-weight: bold
+	margin-left: 130px
+	margin-top: 24px
+	line-height: 1.2
+
+
+
+
+.section-1
+	margin-left: 200px
+
+.triangleIn
+	position: absolute
+	top: -9px
+	left: 27px
+	border: 10px solid transparent
+	border-left: 10px solid #f2fafd
+	border-bottom: 10px solid #f2fafd
+
+// .services-text-result
+	
+
+.section-3
+	margin-top: 15px
+
+.commen-tbox
+	margin-top: 9px
+	&:first-child
+		margin-top: 0px
+
+.active
+	color: black
+	font-weight: bold
+	font-size: 16px
+
+.reviews-all
+	text-decoration: underline
+	font-size: 14px
+
+				
+					
+
+
+
+
+
+
+			
+
+@import "media" // Always at the end
